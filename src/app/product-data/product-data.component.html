@@ -1,0 +1,13 @@
+  <div class="card h-100">
+    <img [src]="prod_data.images[0]" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{prod_data.title}}</h5>
+      <p class="card-text">{{prod_data.description}}</p>
+      <p class="card-text">the brand is: {{prod_data.brand}}</p>
+      <p class="card-text">the price is : ${{prod_data.price}}</p>
+    
+      <button type="button" (click)="Redirection(prod_data.id)" class="btn btn-secondary">Show more Details</button>
+
+    
+    </div>
+  </div>

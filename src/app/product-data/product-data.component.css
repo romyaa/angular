@@ -1,0 +1,12 @@
+.card-img-top{
+    width: 100%;
+    margin: auto;
+    height: 300px;
+    object-fit: fill;
+}
+
+.btn-secondary a{
+    text-decoration: none;
+    color: rgb(45, 105, 63);
+}
+button{background-color: rgb(6, 78, 39);}

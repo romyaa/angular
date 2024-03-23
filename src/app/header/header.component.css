@@ -1,0 +1,7 @@
+.active_link{
+    border-bottom: solid #34702f ;
+    width: fit-content;
+    font-weight: 700;
+    color: rgb(21, 49, 37);
+}
+button{background-color: rgb(6, 78, 39);}
